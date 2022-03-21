@@ -1,6 +1,9 @@
 #' Occurence of amino acids in a peptide
 #'
-#' @param aa_count
+#' @param aminod_acid
+#' Supply an amino acid sequence, it will count every character as a string and display it in a barplot in a plot.
+#' @param occurrence
+#' The count of every single amino acid character
 #'
 #' @return
 #' @export
