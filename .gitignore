@@ -9,3 +9,4 @@ mypkgname*.tgz
 cdm.Rcheck/
 cdm*.tar.gz
 cdm*.tgz
+inst/doc

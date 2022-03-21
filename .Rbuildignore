@@ -4,3 +4,4 @@
 ^cdm.*\.tar\.gz$
 ^cdm.*\.tgz$
 ^LICENSE\.md$
+^README\.Rmd$
