@@ -2,3 +2,9 @@
 
 export(AAseq)
 export(codon_table)
+export(get_reading_frame)
+export(aa_count)
+importFrom(magrittr,"%>%")
+export(transcribe)
+export(create_dna)
+
