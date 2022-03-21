@@ -1,9 +1,11 @@
-#' Title codon_table
+#'  Codon_table
 #'
 #' @param codon_table
 #'
 #' @return
 #' @export
+#' @source \url{https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=tgencodes#SG1}
+"codon_table"
 
 codon_table<-c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
   "UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",

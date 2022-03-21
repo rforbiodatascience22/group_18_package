@@ -15,5 +15,12 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
+devtools::load_all(".")
 library(cdm)
 ```
+
+## Random DNA sequence
+```{r}
+create_dna(size = 10)
+```
+This creates a random DNA sequence, made of the four nucleotides, for the given length.

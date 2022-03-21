@@ -3,13 +3,15 @@
 \docType{data}
 \name{codon_table}
 \alias{codon_table}
-\title{Title codon_table}
+\title{Codon_table}
 \format{
 An object of class \code{character} of length 64.
 
 
 }
 \source{
+\url{https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=tgencodes#SG1}
+
 \url{https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=tgencodes#SG1}
 }
 \usage{
