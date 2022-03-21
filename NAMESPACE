@@ -2,9 +2,6 @@
 
 export(aa_count)
 export(codon_table)
-<<<<<<< HEAD
 importFrom(magrittr,"%>%")
-=======
 export(transcribe)
 export(create_dna)
->>>>>>> 642c8759d4cea4468b98348d557e33b679adc4ae
