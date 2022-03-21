@@ -16,9 +16,9 @@ aa_count <- function(amino_acid){
     as.data.frame()
 
   colnames(counts) <- c("Counts")
-  counts[["Name_me2"]] <- rownames(counts)
+  counts[["amino acids"]] <- rownames(counts)
 
-  occurence <- counts %>%
+  occurrence <- counts %>%
     ggplot2::ggplot(ggplot2::aes(x = amino_acid, y = Counts, fill = amino_acid)) +
     ggplot2::geom_col() +
     ggplot2::theme_bw()
