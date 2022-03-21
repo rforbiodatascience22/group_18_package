@@ -1,2 +1,6 @@
-^mypkgname\.Rproj$
+^cdm\.Rproj$
 ^\.Rproj\.user$
+^cdm\.Rcheck$
+^cdm.*\.tar\.gz$
+^cdm.*\.tgz$
+^LICENSE\.md$
