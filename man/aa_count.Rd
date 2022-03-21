@@ -7,7 +7,9 @@
 aa_count(amino_acid)
 }
 \arguments{
-\item{aa_count}{}
+\item{aminod_acid}{Supply an amino acid sequence, it will count every character as a string and display it in a barplot in a plot.}
+
+\item{occurrence}{The count of every single amino acid character}
 }
 \value{
 
