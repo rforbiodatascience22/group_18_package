@@ -1,8 +1,13 @@
+
 ---
-output: github_document
+title: "group_18_package"
+output: rmarkdown::github_document
+vignette: >
+  %\VignetteIndexEntry{group_18_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -13,43 +18,32 @@ knitr::opts_chunk$set(
 )
 ```
 
-# cdm
 
-<!-- badges: start -->
-<!-- badges: end -->
 
-The goal of cdm is to ...
 
-## Installation
-
-You can install the development version of cdm from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("rforbiodatascience22/group_18_package")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+```{r setup}
+devtools::load_all(".")
 library(cdm)
-## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-```{r cars}
-summary(cars)
+
+# Brief description of what the package is about : 
+This package contains a set of 5 functions , it allows the user to generate a DNA sequence of a given length using create_dna , that will be transcribed using the transcribe function , later the the get_codons function will allow the separation of the RNA seq into codons (3 bps ) , the vector of codons is used by join to be translate it into the appropriate amino acid and concatenated to from the primary structure of the peptide finally the last function  (function five ) uses the result of the fourth above function and create a barplot to show the occurrance of each amino acid in the newly synthesized protein 
+
+# How each function in the package works individually  
+
+## Random DNA sequence
+```{r}
+create_dna(size = 10)
 ```
+This creates a random DNA sequence, made of the four oligonucleotide, for the given length.
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
 
-You can also embed plots, for example:
+this function should take an RNA sequence (can be also a DNA ) in the form of a string as a first
+argument and an integer (start ) as a second argument that is meant to indicate from which base pair the reading frame should start  
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+## GET CODONS 
+```{r}
+get_codons(DNA_seq = "ATGCTG" , start = 1 )
 ```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
