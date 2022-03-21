@@ -2,3 +2,4 @@
 
 export(codon_table)
 export(transcribe)
+export(create_dna)
