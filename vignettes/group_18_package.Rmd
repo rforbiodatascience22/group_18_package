@@ -19,8 +19,26 @@ devtools::load_all(".")
 library(cdm)
 ```
 
+
+
+# Brief description of what the package is about : 
+This package contains a set of 5 functions , it allows the user to generate a DNA sequence of a given length using create_dna , that will be transcribed using the transcribe function , later the the get_codons function will allow the separation of the RNA seq into codons (3 bps ) , the vector of codons is used by join to be translate it into the appropriate amino acid and concatenated to from the primary structure of the peptide finally the last function  (function five ) uses the result of the fourth above function and create a barplot to show the occurrance of each amino acid in the newly synthesized protein 
+
+# How each function in the package works individually  
+
 ## Random DNA sequence
 ```{r}
 create_dna(size = 10)
 ```
-This creates a random DNA sequence, made of the four nucleotides, for the given length.
+This creates a random DNA sequence, made of the four oligonucleotide, for the given length.
+
+
+this function should take an RNA sequence (can be also a DNA ) in the form of a string as a first
+argument and an integer (start ) as a second argument that is meant to indicate from which base pair the reading frame should start  
+
+## GET CODONS 
+```{r}
+get_codons(DNA_seq = "ATGCTG" , start = 1 )
+```
+# How the functions in the package are used in conjuction with each other   
+
