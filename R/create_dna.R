@@ -5,7 +5,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples create_dna(10)
 create_dna <- function(size){
   random_dna <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
   random_dna <- paste0(random_dna, collapse = "")

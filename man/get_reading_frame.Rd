@@ -18,7 +18,7 @@ returns the codons character vector of three base pair to be subsequently transl
 Reading frame
 }
 \examples{
-get_reading_frame("ATGCGC", start =  1))
-will return [ "ATG"  , "CGC"]
+get_reading_frame("ATGCGC", start =  1)
+# will return [ "ATG"  , "CGC"]
 
 }

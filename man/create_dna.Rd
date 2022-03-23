@@ -15,3 +15,6 @@ create_dna(size)
 \description{
 Title Create random DNA with given size
 }
+\examples{
+create_dna(10)
+}

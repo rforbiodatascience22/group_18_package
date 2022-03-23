@@ -9,8 +9,8 @@
 #' @export
 #'
 #' @examples
-#' get_reading_frame("ATGCGC", start =  1))
-#' will return [ "ATG"  , "CGC"]
+#' get_reading_frame("ATGCGC", start =  1)
+#' # will return [ "ATG"  , "CGC"]
 #'
 get_reading_frame <- function(DNA_seq, start = 1){
   DNA_seq_to_char <- nchar(DNA_seq)
