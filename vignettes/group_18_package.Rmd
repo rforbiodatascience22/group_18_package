@@ -15,10 +15,9 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-
-devtools::load_all(".")
+devtools::load_all()
 library(cdm)
-
+devtools::check()
 ```
 
 
@@ -71,7 +70,7 @@ count_aa('AUGCGCUA')
 2. It is then to converted to mRNA with `transcribe`.
 3. From the resulting mRNA sequence, the `get_codons` function creates a vector of codons (3 bp each).
 4. The `translate` function produces the string of amino acids from the codon vector.
-5. The occurrences of each amino acid in the peptide is counted by `count_aa` and displayed in a bar plot.
+5. The occurrences of each amino acid in the peptide sequence is counted by `count_aa` and displayed in a bar plot.
 
 ```{r}
 DNA <- create_dna(size = 60)
