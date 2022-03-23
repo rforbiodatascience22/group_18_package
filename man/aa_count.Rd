@@ -4,15 +4,13 @@
 \alias{aa_count}
 \title{Occurence of amino acids in a peptide}
 \usage{
-aa_count(amino_acid)
+aa_count(peptide_sequence)
 }
 \arguments{
-\item{aminod_acid}{Supply an amino acid sequence, it will count every character as a string and display it in a barplot in a plot.}
-
-\item{occurrence}{The count of every single amino acid character}
+\item{peptide_sequence}{Supply a peptide, it will count every character as a string and display it in a barplot in a plot.}
 }
 \value{
-
+occurrence The count of every single amino acid character
 }
 \description{
 Occurence of amino acids in a peptide

@@ -7,7 +7,7 @@
 create_dna(size)
 }
 \arguments{
-\item{size}{}
+\item{size}{integer value that represent the length of the DNA sequence to be randomlygenerated .}
 }
 \value{
 

@@ -1,6 +1,6 @@
 #'  Codon_table
 #'
-#' @param codon_table
+#' @param codon_table shows to which amino acid each codon will be translated to .
 #'
 #' @return
 #' @export
@@ -9,8 +9,8 @@
 
 codon_table<-c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
   "UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",
-  "UUA" = "L", "UCA" = "S", "UAA" = "*", "UGA" = "*",
-  "UUG" = "L", "UCG" = "S", "UAG" = "*", "UGG" = "W",
+  "UUA" = "L", "UCA" = "S", "UAA" = "_", "UGA" = "_",
+  "UUG" = "L", "UCG" = "S", "UAG" = "_", "UGG" = "W",
   "CUU" = "L", "CCU" = "P", "CAU" = "H", "CGU" = "R",
   "CUC" = "L", "CCC" = "P", "CAC" = "H", "CGC" = "R",
   "CUA" = "L", "CCA" = "P", "CAA" = "Q", "CGA" = "R",

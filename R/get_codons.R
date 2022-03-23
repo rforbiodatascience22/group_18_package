@@ -7,9 +7,8 @@
 #' @return returns codons which is vector of three chars presenting each codon from the DNA_seq starting from the start .
 #' @export
 #'
-#' @examplesus
-#' get_codons("ATGCGC", start =  1))
-#' will return [ "ATG"  , "CGC"]
+#' @examples get_codons("ATGCGC", start =  1)
+#'
 #'
 get_codons <- function(DNA_seq, start = 1){
   DNA_seq_to_char <- nchar(DNA_seq)

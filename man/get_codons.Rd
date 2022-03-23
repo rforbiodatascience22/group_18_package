@@ -17,3 +17,8 @@ returns codons which is vector of three chars presenting each codon from the DNA
 \description{
 get_codons
 }
+\examples{
+get_codons("ATGCGC", start =  1)
+
+
+}

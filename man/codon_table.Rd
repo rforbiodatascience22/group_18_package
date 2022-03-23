@@ -20,7 +20,7 @@ codon_table
 codon_table
 }
 \arguments{
-\item{codon_table}{}
+\item{codon_table}{shows to which amino acid each codon will be translated to .}
 }
 \value{
 
