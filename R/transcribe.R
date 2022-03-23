@@ -1,6 +1,6 @@
 #' Convert a sense (coding) DNA sequence into mRNA
 #'
-#' @param dna_seq, character vector
+#' @param dna_seq character vector
 #'
 #' @return Returns an mRNA sequence (character vector).
 #' @export

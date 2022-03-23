@@ -5,11 +5,9 @@
 #' @return
 #' @export
 #'
-<<<<<<< HEAD
 
-=======
 #' @examples create_dna(10)
->>>>>>> belkis
+
 create_dna <- function(size){
   random_dna <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
   random_dna <- paste0(random_dna, collapse = "")

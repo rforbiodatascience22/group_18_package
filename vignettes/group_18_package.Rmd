@@ -52,8 +52,8 @@ This function takes as a first argument an RNA sequence (a string), and as a sec
 get_codons(seq = "AUGCUG" , start = 1 )
 ```
 
-## `translate`
-This function takes as argument a vector of strings (codons), converts each codon to its corresponding amino acid (1-letter code) based on the codon table, and concatenates the letters into a single string (peptide).
+## `translation`
+This function takes as argument a vector of strings (codons), converts each codon to its corresponding amino acid (1-letter code) based on the codon table, and concatenates the letters into peptide.
 ```{r}
 translate("AUG")
 ```
